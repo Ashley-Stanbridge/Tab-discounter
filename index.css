@@ -1,0 +1,41 @@
+.container span {
+  height: 100px;
+  width: 200px;
+  font-size: 5vw;
+  border: 0;
+}
+
+.container span input {
+  height: 100px;
+  width: 200px;
+  font-size: 5vw;
+}
+
+input:focus, textarea:focus {
+    outline: none;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+#price {
+  font-size: 5vw;
+}
+
+.currencyinput {
+    border: 1px inset #ccc;
+}
+.currencyinput input {
+    border: 0;
+}
+
+.submit {
+  height: 50px;
+  width: 100px;
+  border: 0;
+  color: white;
+  background-color: grey;
+}
